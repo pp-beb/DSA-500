@@ -16,5 +16,6 @@ for( i=0 ; i<5 ; i++)
 	}
 	
 }
+	cout<<"taking a day off";
 return 0;
 }
