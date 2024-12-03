@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int arr[10]={1,2,3,3,5,6,7,7,8,9};
+	int arr[10]={0,1,2,3,4,5,6,7,8};
 		int i,j;
 	for(i=0;i<10;i++)
 	{
@@ -10,7 +10,7 @@ int main()
 		{
 			if(arr[i]==arr[j] && i>j)
 			{
-				cout<<"The repeated element is : "<<arr[i]<<" which is the "<<i<<"th and "<<j<<"th term."<<endl;
+				cout<<"The repeated element is: "<<arr[i]<<" which is the "<<i<<"th and "<<j<<"th term."<<endl;
 			}
 		}
 	}
